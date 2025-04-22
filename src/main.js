@@ -1,7 +1,10 @@
-index.js
 const express = require('express');
+const initializeDatabase = require('./config/initDb');
 const app = express();
 const port = process.env.PORT || 2204;
+
+// Initialize database
+initializeDatabase();
 
 app.use(express.json());
 
