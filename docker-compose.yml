@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    ports:
+      - "2204:2204"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=2204

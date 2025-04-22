@@ -1,0 +1,28 @@
+{
+  "name": "tulse",
+  "version": "1.0.0",
+  "description": "A simple Express.js API with Docker setup",
+  "main": "src/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/tulse.git"
+  },
+  "keywords": [
+    "express",
+    "docker",
+    "api"
+  ],
+  "author": "Your Name",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
