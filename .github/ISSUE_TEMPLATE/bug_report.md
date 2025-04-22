@@ -1,38 +1,55 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: 🐛 Bug Report
+about: Create a report to help improve Tulse
+title: '[BUG] '
+labels: 'bug'
 assignees: ''
-
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 🔍 Bug Description
+<!-- A clear and concise description of the bug -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
+## 📝 Steps To Reproduce
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## ✔️ Expected Behavior
+<!-- A clear description of what you expected to happen -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## ❌ Actual Behavior
+<!-- What actually happened -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## 📱 Environment
+- OS: [e.g. Windows 11, Ubuntu 22.04]
+- Browser: [e.g. Chrome 121, Firefox 123]
+- Tulse Version: [e.g. 1.0.0]
+- Node Version: [e.g. 18.17.0]
+- Docker Version: [e.g. 24.0.7]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+## 📋 Logs
+```
+Paste any relevant logs here
+```
 
-**Additional context**
-Add any other context about the problem here.
+## 🖼️ Screenshots
+<!-- If applicable, add screenshots to help explain your problem -->
+
+## 💾 Additional Context
+<!-- Add any other context about the problem here -->
+
+## 🔍 Possible Solution
+<!-- Optional: suggest a fix/reason for the bug -->
+
+## ✅ Checklist
+- [ ] I have checked existing issues for duplicates
+- [ ] I have included all relevant information
+- [ ] I have included logs and/or screenshots
+- [ ] I can reproduce this issue consistently
+- [ ] I have included steps to reproduce
+
+## 🔄 System Status
+- [ ] This issue appears in development
+- [ ] This issue appears in production
+- [ ] This issue is intermittent
